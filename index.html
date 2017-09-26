@@ -1,9 +1,160 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="/css/style.css">
-	</head>
-	<body>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A+</title>
+</head>
+<body>
+<header class="header-main">
+    <div class="container">
+        <div class="header-top">
+            <img class="logo" width="121px" height="110px" src="img/logo.png" alt="A+">
+            <nav class="header-menu">
+                <ul>
+                    <li>Программа обучения</li>
+                    <li>Выпускники</li>
+                    <li>Как поступить</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <div class="header-title">Учеба еще никогда не была такой интересной!</div>
+            <p>Обучаем готовых к трудоустройству специалистов на теоретических и практических курсах</p>
+            <a class="btn btn-green" href="#">подать заявку</a>
+        </div>
+    </div>
+</header>
+<section class="features">
+    <div class="container">
+        <div class="features-item">
+            <div class="features-logo features-logo-schedule"></div>
+            <h2 class="features-title">Гибкий график обучения</h2>
+            <p>Современный темп жизни требует гибкого подхода к расписанию.</p>
+        </div>
+        <div class="features-item">
+            <div class="features-logo features-logo-practice"></div>
+            <h2 class="features-title">Практические занятия</h2>
+            <p>На одной теории далеко не уедешь, поэтому мы обучаем на практике.</p>
+        </div>
+        <div class="features-item">
+            <div class="features-logo features-logo-job"></div>
+            <h2 class="features-title">Не оставим без работы</h2>
+            <p>Хорошие специалисты всегда в цене и Вы станете именно атким.</p>
+        </div>
+    </div>
+</section>
+<section class="feedback">
+    <h2 class="feedback-title">Отзывы выпускников</h2>
+    <a class="feedback-all" href="#">показать все</a>
+    <div class="feedback-author">
+        <div class="feedback-author-avatar"></div>
+        <h3 class="feedback-author-name">Иванов Петр Сергеевич</h3>
+        <p>Группа: 04-И-15<br>
+        Выпуск: 2009 г.</p>
+    </div>
+    <blockquote class="feedback-comment">
+        <h3 class="feedback-comment-title">Тяжело в учении, легко в бою</h3>
+        <p>Во время обучения было очень тяжело, практическия занятия требовали усидчивости и гибкости ума. Однако, по
+        прошествии времени, понял, все все это было не зря! Устроился в ведущую студию своего города сразу после
+        выпуска, а проработва так три года основал свою собственную!</p>
+    </blockquote>
+</section>
+<section class="contact">
+    <div class="container">
+        <h2 class="contact-title">Обратная связь</h2>
+        <form>
+            <table>
+                <tr>
+                    <td class="title">
+                        <label for="name-id">ФИО:</label>
+                    </td>
+                    <td class="field">
+                        <input id="name-id" name="name" type="text" placeholder="Представьтесь, пожалуйста">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">
+                        <label for="age-id">Возраст:</label>
+                    </td>
+                    <td class="field">
+                        <input type="text" id="age-id" name="age" placeholder="Укажите возраст, хотя бы приблизительно">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">Пол:</td>
+                    <td class="field">
+                        <label>
+                            <input type="radio" checked id="man" name="sex">Мужской
+                        </label>
+                        <label>
+                            <input type="radio" id="woman" name="sex">Женский
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">
+                        <label for="question-id">Вопрос:</label>
+                    </td>
+                    <td class="field">
+                        <textarea id="question-id" name="question" placeholder="Сообщите все, что считаете нужным"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <a class="btn btn-green" href="#">Отправить</a>
+        </form>
+        <div class="contact-promo">Заинтересовались обучением на нашей кафедре?</div>
+        <p>Заполните короткую форму обратной связи и отправьте нам.</p>
+        <p>Мы подготовим для вас индивидуальное предложение и выйдем на связь!</p>
+        <p class="contact-warning"><strong>Внимание!</strong> Все поля обязательны для заполнения</p>
+    </div>
+</section>
+<footer class="footer-main">
+    <div class="container">
+        <div class="footer-top">
+            <img class="logo" width="180px" height="81px" src="img/footer-logo.png" alt="A+">
+            <p>197101, г. Санкт-Петербург, пр. Кроневерский, д. 49</p>
+            <div class="footer-item">
+                <div class="footer-item-title">Обучение</div>
+                <ul>
+                    <li>Расписание</li>
+                    <li>Предметы</li>
+                    <li>Практика</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="footer-item-title">Выпускники</div>
+                <ul>
+                    <li>Достижения</li>
+                    <li>Отзывы</li>
+                    <li>Найти</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="footer-item-title">Как поступить</div>
+                <ul>
+                    <li>На коммерцию</li>
+                    <li>Целевой набор</li>
+                    <li>На бюджет</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="footer-item-title">Контакты</div>
+                <ul>
+                    <li>Обратная связь</li>
+                    <li>Схема проекта</li>
+                    <li>Телефон/факс</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">Все права защищены © 2015</div>
+            <div class="footer-promo">Подписчикам в соц. сетях - скидки на обучение!</div>
+            <a class="social social-vk" href="#">вконтакте</a>
+            <a class="social social-fb" href="#">фейсбук</a>
+            <a class="social social-tw" href="#">твиттер</a>
+        </div>
+    </div>
+</footer>
+</body>
 </html>
