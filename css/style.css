@@ -1,0 +1,174 @@
+body {
+    background-image: url("D:/work/repositories/openedu/A-Plus/src/A-Plus-Index.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-header {
+    padding-top: 65px;
+    padding-bottom: 155px;
+}
+
+.header-top {
+    margin-bottom: 140px;
+}
+
+.header-top::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    min-height: 80px;
+    width: 180px;
+    float: left;
+}
+
+.main-menu {
+    margin-top: 30px;
+    min-height: 40px;
+    width: 680px;
+    float: right;
+    display: none;
+}
+
+.promo {
+    min-height: 330px;
+    width: 450px;
+}
+
+.features {
+    padding-top: 85px;
+    padding-bottom: 70px;
+}
+
+.features-item {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.features-item:last-child {
+    margin-right: 0;
+}
+
+.features .container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.feedback {
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.feedback-item::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.feedback-author {
+    float: left;
+    width: 300px;
+}
+
+.feedback-content {
+    float: right;
+    width: 640px;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.contacts {
+    padding-top: 95px;
+    padding-bottom: 85px;
+}
+
+.contacts .container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contacts-form {
+    float: left;
+    width: 590px;
+}
+
+.contacts-instruction {
+    float: right;
+    width: 300px;
+}
+
+.contacts-alert {
+    margin-top: 120px;
+}
+
+.main-footer {
+    padding-top: 85px;
+    padding-bottom: 65px;
+}
+
+.footer-top {
+    margin-bottom: 65px;
+}
+
+.footer-top::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer-address {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.footer-menu {
+    float: left;
+    width: 150px;
+}
+
+.footer-menu:last-child {
+    float: right;
+}
+
+.footer-bottom {
+
+}
+
+.footer-bottom::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.copyright {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.footer-social-promo {
+    float: left;
+    width: 450px;
+}
+
+.footer-social {
+    float: right;
+    width: 150px;
+}
