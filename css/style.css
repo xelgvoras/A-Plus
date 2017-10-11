@@ -1,150 +1,150 @@
 body {
-    background-image: url("D:/work/repositories/openedu/A-Plus/src/A-Plus-Index.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    margin: 0;
-    padding: 0;
+  background: url(/src/A-Plus-Index.jpg) no-repeat center top;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    width: 980px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 980px;
 }
 
+/* Header */
+
 .main-header {
-    padding-top: 65px;
-    padding-bottom: 155px;
+  padding: 65px 0 155px;
 }
 
 .header-top {
-    margin-bottom: 140px;
+  margin-bottom: 140px;
 }
 
 .header-top::after {
-    content: '';
-    display: table;
-    clear: both;
+  clear: both;
+  content: '';
+  display: table;
 }
 
 .logo {
-    min-height: 80px;
-    width: 180px;
-    float: left;
+  float: left;
+  min-height: 80px;
+  width: 180px;
 }
 
 .main-menu {
-    margin-top: 30px;
-    min-height: 40px;
-    width: 680px;
-    float: right;
-    display: none;
+  float: right;
+  margin-top: 30px;
+  min-height: 40px;
+  width: 680px;
 }
 
 .promo {
-    min-height: 330px;
-    width: 450px;
+  min-height: 330px;
+  width: 450px;
 }
 
+/* Features */
+
 .features {
-    padding-top: 85px;
-    padding-bottom: 70px;
+  padding: 85px 0 70px;
 }
 
 .features-item {
-    float: left;
-    width: 300px;
-    margin-right: 40px;
+  float: left;
+  margin-right: 40px;
+  width: 300px;
 }
 
 .features-item:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .features .container::after {
-    content: '';
-    display: table;
-    clear: both;
+  clear: both;
+  content: '';
+  display: table;
 }
 
+/* Feedback */
+
 .feedback {
-    padding-top: 90px;
-    padding-bottom: 80px;
+  padding: 90px 0 80px;
 }
 
 .feedback-item::after {
-    content: '';
-    display: table;
-    clear: both;
+  clear: both;
+  content: '';
+  display: table;
 }
 
 .feedback-author {
-    float: left;
-    width: 300px;
+  float: left;
+  width: 300px;
 }
 
 .feedback-content {
-    float: right;
-    width: 640px;
-    margin: 0;
-    margin-left: 40px;
+  float: right;
+  margin: 0;
+  margin-left: 40px;
+  width: 640px;
 }
 
+/* Contacts */
+
 .contacts {
-    padding-top: 95px;
-    padding-bottom: 85px;
+  padding: 95px 0 85px;
 }
 
 .contacts .container::after {
-    content: '';
-    display: table;
-    clear: both;
+  clear: both;
+  content: '';
+  display: table;
 }
 
 .contacts-form {
-    float: left;
-    width: 590px;
+  float: left;
+  width: 590px;
 }
 
 .contacts-instruction {
-    float: right;
-    width: 300px;
+  float: right;
+  width: 300px;
 }
 
 .contacts-alert {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
+/* Footer */
+
 .main-footer {
-    padding-top: 85px;
-    padding-bottom: 65px;
+  padding: 85px 0 65px;
 }
 
 .footer-top {
-    margin-bottom: 65px;
+  margin-bottom: 65px;
 }
 
 .footer-top::after {
-    content: '';
-    display: table;
-    clear: both;
+  clear: both;
+  content: '';
+  display: table;
 }
 
 .footer-address {
-    float: left;
-    width: 300px;
-    margin-right: 40px;
+  float: left;
+  margin-right: 40px;
+  width: 300px;
 }
 
 .footer-menu {
-    float: left;
-    width: 150px;
+  float: left;
+  width: 150px;
 }
 
 .footer-menu:last-child {
-    float: right;
+  float: right;
 }
 
 .footer-bottom {
@@ -152,23 +152,23 @@ body {
 }
 
 .footer-bottom::after {
-    content: '';
-    display: table;
-    clear: both;
+  clear: both;
+  content: '';
+  display: table;
 }
 
 .copyright {
-    float: left;
-    width: 300px;
-    margin-right: 40px;
+  float: left;
+  margin-right: 40px;
+  width: 300px;
 }
 
 .footer-social-promo {
-    float: left;
-    width: 450px;
+  float: left;
+  width: 450px;
 }
 
 .footer-social {
-    float: right;
-    width: 150px;
+  float: right;
+  width: 150px;
 }
