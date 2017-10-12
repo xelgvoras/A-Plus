@@ -17,7 +17,7 @@ body {
 }
 
 .header-top {
-  margin-bottom: 140px;
+  margin-bottom: 120px;
 }
 
 .header-top::after {
@@ -28,13 +28,13 @@ body {
 
 .logo {
   float: left;
-  min-height: 80px;
+  min-height: 100px;
   width: 180px;
 }
 
 .main-menu {
   float: right;
-  margin-top: 30px;
+  margin-top: 25px;
   min-height: 40px;
   width: 680px;
 }
@@ -47,17 +47,7 @@ body {
 /* Features */
 
 .features {
-  padding: 85px 0 70px;
-}
-
-.features-item {
-  float: left;
-  margin-right: 40px;
-  width: 300px;
-}
-
-.features-item:last-child {
-  margin-right: 0;
+  padding: 85px 0 75px;
 }
 
 .features .container::after {
@@ -66,10 +56,27 @@ body {
   display: table;
 }
 
+.features-item {
+  float: left;
+  margin-right: 40px;
+  min-height: 90px;
+  width: 300px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
 /* Feedback */
 
 .feedback {
-  padding: 90px 0 80px;
+  padding: 85px 0 80px;
+}
+
+.feedback-title,
+.contacts-title {
+  margin: 0 0 0 65px;
+  min-height: 50px;
 }
 
 .feedback-item::after {
@@ -80,20 +87,22 @@ body {
 
 .feedback-author {
   float: left;
-  width: 300px;
+  min-height: 140px;
+  padding-left: 170px;
+  width: 130px;
 }
 
 .feedback-content {
   float: right;
   margin: 0;
-  margin-left: 40px;
+  min-height: 140px;
   width: 640px;
 }
 
 /* Contacts */
 
 .contacts {
-  padding: 95px 0 85px;
+  padding: 85px 0 80px;
 }
 
 .contacts .container::after {
@@ -104,26 +113,20 @@ body {
 
 .contacts-form {
   float: left;
-  width: 590px;
+  min-height: 420px;
+  width: 640px;
 }
 
 .contacts-instruction {
   float: right;
+  min-height: 420px;
   width: 300px;
-}
-
-.contacts-alert {
-  margin-top: 120px;
 }
 
 /* Footer */
 
 .main-footer {
-  padding: 85px 0 65px;
-}
-
-.footer-top {
-  margin-bottom: 65px;
+  padding: 95px 0 75px;
 }
 
 .footer-top::after {
@@ -135,20 +138,24 @@ body {
 .footer-address {
   float: left;
   margin-right: 40px;
+  min-height: 210px;
   width: 300px;
 }
 
 .footer-menu {
   float: left;
+  margin-top: 25px;
+  min-height: 185px;
   width: 150px;
 }
 
 .footer-menu:last-child {
   float: right;
+  width: 135px;
 }
 
 .footer-bottom {
-
+  margin-top: 45px;
 }
 
 .footer-bottom::after {
@@ -160,15 +167,18 @@ body {
 .copyright {
   float: left;
   margin-right: 40px;
+  min-height: 45px;
   width: 300px;
 }
 
 .footer-social-promo {
   float: left;
-  width: 450px;
+  min-height: 45px;
+  width: 420px;
 }
 
 .footer-social {
   float: right;
-  width: 150px;
+  min-height: 45px;
+  width: 170px;
 }
